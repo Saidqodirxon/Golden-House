@@ -1,0 +1,376 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* .container {
+  width: 1530px;
+} */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  line-height: 50px;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  list-style-type: none;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin: 20px;
+}
+
+.navbar-nav a {
+  text-decoration: none;
+}
+.logo {
+  display: flex;
+  width: 200px;
+  margin: 20px 50px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.header-btn {
+  background: #316499;
+  color: #fff;
+  font-size: 15px;
+  word-spacing: 1.5px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  gap: 10px;
+  margin: 20px 50px;
+  transition: 0.5s ease-in;
+}
+
+.header-btn:hover {
+  border: 2px solid #316499;
+  background: #fff;
+  color: #316499;
+}
+
+.birinchi-bet {
+  background: rgba(49, 100, 153, 0.1);
+  display: flex;
+  justify-content: space-between;
+  word-wrap: wrap;
+}
+
+.birinchi-text {
+  width: 650px;
+  padding: 50px 70px;
+}
+
+.birinchi-text h1 {
+  font-size: 50px;
+  padding-top: 100px;
+  letter-spacing: 5px;
+  line-height: 70px;
+}
+.birinchi-text p {
+  color: grey;
+  font-size: 25px;
+  padding-top: 40px;
+  letter-spacing: 2px;
+}
+
+.birinchi-img {
+  padding-right: 350px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.birinchi-img img {
+  width: 150%;
+  border: 1px solid rgba(49, 100, 153, 0.1);
+  border-radius: 10px;
+}
+
+.birinchi-btn {
+  margin: 40px 0;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  background: #316499;
+  color: #fff;
+  border: 1px solid #316499;
+  border-radius: 5px;
+  transition: 0.5s ease-in;
+}
+
+.birinchi-btn:hover {
+  border: 2px solid #316499;
+  background: #fff;
+  color: #316499;
+}
+
+.ikkinchi {
+  background: #fff;
+}
+.ikkinchi h2 {
+  margin: 50px 0 0 0;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 60px;
+  color: #316499;
+
+  text-transform: uppercase;
+}
+
+.ikkinchi-bet {
+  display: flex;
+  padding: 100px;
+}
+
+.ikkinchi-bet-cardlar {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  gap: 50px;
+}
+.ikkinchi-bet-cardlar li {
+  width: 400px;
+  height: 400px;
+  border: 1px solid gray;
+  padding: 50px;
+}
+
+.ikkinchi-foto {
+  display: flex;
+  justify-content: center;
+}
+.ikkinchi-foto img {
+  width: 150px;
+}
+
+.cards2 {
+  list-style-type: none;
+  margin-top: 50px;
+}
+
+.cards2 h3 {
+  margin: 10px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.cards2 p {
+  text-align: center;
+  padding: 10px;
+}
+
+.cards2 a {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  padding-top: 10px;
+  text-decoration: none;
+}
+
+.uch {
+  padding-bottom: 100px;
+}
+.uch h2 {
+  text-align: center;
+  font-size: 60px;
+  color: #316499;
+  padding: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.main-img {
+  width: 100%;
+  border-radius: 5px;
+}
+.img {
+  width: 15px;
+}
+
+.card {
+  height: 400px;
+  padding: 40px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 20px;
+  box-shadow: 0 5px 10px #333;
+}
+
+.card-main {
+  display: flex;
+  padding: 20px 0;
+}
+.card-main img {
+  margin-right: 10px;
+}
+.card a {
+  font-size: 25px;
+  padding-right: 200px;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+}
+.uchinchi-btn {
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  background: #316499;
+  color: #fff;
+  border: 1px solid #316499;
+  border-radius: 5px;
+  transition: 0.5s ease-in;
+}
+
+.uchinchi-btn:hover {
+  border: 2px solid #316499;
+  background: #fff;
+  color: #316499;
+}
+
+.tort h2 {
+  text-align: center;
+  font-size: 60px;
+  color: #316499;
+  padding: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.tortinchi {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 50px;
+}
+
+.cardx {
+  height: 600px;
+  width: 550px;
+  padding: 50px;
+  margin: 20px;
+  border: 1px solid grey;
+  box-shadow: 0 1px 5px #000;
+}
+
+.cardx img {
+  width: 100%;
+}
+
+.cardx h3 {
+  font-size: 35px;
+  padding: 20px 0 10px 0;
+}
+.cardx p {
+  font-size: 20px;
+  padding: 10px 0 10px 0;
+}
+.cardx a {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.besh-navbar {
+  text-align: center;
+  font-size: 60px;
+  color: #316499;
+  padding: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.carda {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.cardas {
+  height: 650px;
+  border: 1px solid grey;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px #000;
+  text-align: center;
+  line-height: 25px;
+}
+.main-card {
+  width: 400px;
+}
+
+.cardas h2 {
+  color: #000;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.cardas h4 {
+  color: grey;
+  padding: 10px;
+  padding-bottom: 15px;
+  font-size: 25px;
+}
+
+.cardas p {
+  font-size: 20px;
+  padding: 20px;
+}
+
+footer {
+  background: #316499;
+  color: #fff;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+
+.foter-nav {
+  padding: 50px;
+  padding-top: 170px;
+}
+
+.footer-menu {
+  list-style-type: none;
+  padding-top: 70px;
+  font-size: 15px;
+  line-height: 40px;
+}
+
+.footer-menu h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 20px 0 20px 0;
+}
+
+.footer-menu li {
+  letter-spacing: 1px;
+}
+
+.footer-menu img {
+  width: 25px;
+}
